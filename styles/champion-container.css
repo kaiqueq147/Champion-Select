@@ -1,0 +1,41 @@
+.champion-container {
+    display: flex;
+    background-size: cover;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    border-radius: 130px 24px 194px 10px;
+    -moz-border-radius: 130px 24px 194px 10px;
+    -webkit-border-radius: 130px 24px 194px 10px;
+    transition: .4s;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: .8rem;
+}
+
+.spell {
+    width: 30px;
+    height: 30px;
+}
+
+.img-champion {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 1rem;
+    transition: .4s;
+    transform: rotate(0);
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.status span {
+    color: #C09F3A;
+}
+
+.champion-spell {
+    display: flex;
+    flex-direction: column;
+}

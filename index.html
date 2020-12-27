@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <audio src="./sound/musica_loading.ogg" autoplay="true" loop="true"></audio>
+
+    <img class="mapa" src="./assets/mapa.png" alt="">
+    <img src="./assets/loader.svg" alt="" class="loader">
+
+
+    <header>
+        <div class="title-container">
+            <h1>CHOOSE YOUR CHAMPION</h1>
+        </div>
+
+        <div class="action-buttons">
+            <ul>
+                <li>
+                    <span><img src="./assets/question.svg" class="icon" alt=""></span>
+                    <span class="under"></span>
+                    <span><img src="./assets/settings.svg" class="icon" alt=""></span>
+                    <span><img src="./assets/close.svg" class="icon" alt=""></span>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="main">
+        <div class="blue-team">
+            <div class="champion-container">
+                <div class=" champion-spell">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/spell/SummonerFlash.png " class="spell " alt=" ">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/spell/SummonerHaste.png " class="spell " alt=" ">
+                </div>
+
+                <img src="./assets/back.png" class="img-champion">
+                <div class="status ">
+                    <span class="choosing" style="font-weight: bold; ">Picking...</span>
+                    <span>Nick</span>
+                </div>
+            </div>
+            <div class="champion-container" style="background-image: url( 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg'); ">
+                <div class="champion-spell ">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/spell/SummonerFlash.png " class="spell " alt=" ">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/spell/SummonerDot.png " class="spell " alt=" ">
+                </div>
+                <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/champion/Yasuo.png " alt=" " class="img-champion ">
+                <div class="status ">
+                    <span style="font-weight: bold; ">Yasuo</span>
+                    <span>Nick</span>
+                </div>
+            </div>
+            <div class="champion-container" style="background-image: url( 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gragas_0.jpg'); ">
+                <div class=" champion-spell ">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/spell/SummonerSmite.png " class="spell " alt=" ">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/spell/SummonerFlash.png " class="spell " alt=" ">
+                </div>
+                <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/champion/Gragas.png " alt=" " class="img-champion ">
+                <div class="status ">
+                    <span style="font-weight: bold; ">Gragas</span>
+                    <span>Nick</span>
+                </div>
+            </div>
+            <div class="champion-container" style="background-image: url( 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg') " ;>
+                <div class=" champion-spell ">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/spell/SummonerFlash.png " class="spell " alt=" ">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/spell/SummonerHeal.png " class="spell " alt=" ">
+                </div>
+                <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/champion/Jhin.png " alt=" " class="img-champion ">
+                <div class="status ">
+                    <span style="font-weight: bold; ">Jhin</span>
+                    <span>Nick</span>
+                </div>
+            </div>
+            <div class="champion-container" style="background-image: url( 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zilean_0.jpg'); ">
+                <div class="champion-spell ">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/spell/SummonerFlash.png " class="spell " alt=" ">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/spell/SummonerDot.png " class="spell " alt=" ">
+                </div>
+                <img src="https://ddragon.leagueoflegends.com/cdn/10.25.1/img/champion/Zilean.png " alt=" " class="img-champion ">
+                <div class="status ">
+                    <span style="font-weight: bold; ">Zilean</span>
+                    <span>Nick</span>
+                </div>
+            </div>
+        </div>
+        <div class="select-container">
+            <!-- <div class="class-selection-bar ">
+                <img src="https://static.wikia.nocookie.net/leagueoflegends/images/5/58/Controller_icon.png/revision/latest/scale-to-width-down/20?cb=20181117143552 " alt="suporte ">
+                <img src="https://static.wikia.nocookie.net/leagueoflegends/images/8/8f/Fighter_icon.png/revision/latest/scale-to-width-down/20?cb=20181117143554 " alt="fighter ">
+                <img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Mage_icon.png/revision/latest/scale-to-width-down/20?cb=20181117143555 " alt="mage ">
+                <img src="https://static.wikia.nocookie.net/leagueoflegends/images/7/7f/Marksman_icon.png/revision/latest/scale-to-width-down/20?cb=20181117143555 " alt="marksman ">
+                <img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Slayer_icon.png/revision/latest/scale-to-width-down/20?cb=20181117143556 " alt="assasino ">
+                <img src="https://static.wikia.nocookie.net/leagueoflegends/images/5/5a/Tank_icon.png/revision/latest/scale-to-width-down/20?cb=20181117143558 " alt="tank ">
+            </div> -->
+            <div class="select ">
+                <div class="champ">
+                    <img src="https://urbanarts.vteximg.com.br/arquivos/ids/3522199/212266-PM-163-92.jpg?v=637185655012070000 " alt=" ">
+                    <span class="name ">Aleatório</span>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="ok">LOCK-IN</button>
+                <div class="spells">
+                </div>
+                <div class="spells-2">
+                </div>
+                <div class="selected-spells">
+                    <img src="" alt="" class="spell-1">
+                    <img src="" alt="" class="spell-2">
+                </div>
+            </div>
+
+        </div>
+        <div class="red-team ">
+
+            <div class="champion-container">
+                <div class="status">
+                    <span style="font-weight: bold; ">Ready!</span>
+                    <span>Nick</span>
+                </div>
+                <img src="./assets/back.png " style="border: 3px solid rgb(80, 13, 13) " class="img-champion ">
+                <div class="champion-spell ">
+
+                </div>
+            </div>
+            <div class="champion-container">
+                <div class="status">
+                    <span style="font-weight: bold; ">Ready!</span>
+                    <span>Nick</span>
+                </div>
+                <img src="./assets/back.png" style="border: 3px solid rgb(80, 13, 13) " class="img-champion ">
+
+            </div>
+            <div class="champion-container">
+                <div class="status ">
+                    <span style="font-weight: bold; ">Ready!</span>
+                    <span>Nick</span>
+                </div>
+                <img src="./assets/back.png " style="border: 3px solid rgb(80, 13, 13) " class="img-champion ">
+
+            </div>
+            <div class="champion-container">
+                <div class="status">
+                    <span style="font-weight: bold; ">Ready!</span>
+                    <span>Nick</span>
+                </div>
+                <img src="./assets/back.png" style="border: 3px solid rgb(80, 13, 13) " class="img-champion ">
+
+            </div>
+            <div class="champion-container">
+                <div class="status">
+                    <span style="font-weight: bold; ">Ready!</span>
+                    <span>Nick</span>
+                </div>
+                <img src="./assets/back.png " style="border: 3px solid rgb(80, 13, 13) " class="img-champion ">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="modal">
+        <h1>Conheça mais sobre mim</h1>
+        <div class="links">
+            <a href="https://github.com/kaiqueq147" target="blank"><img src="./assets/github.svg" class="social-medias" alt="github"></a>
+            <a href="https://wa.me/5582999494953" target="blank"><img src="./assets/whatsapp.svg" class="social-medias" alt="zap"></a>
+            <a href="mailto:kaiqueq147@gmail.com" target="blank"><img src="./assets/email.svg" class="social-medias" alt="email"></a>
+        </div>
+    </section>
+
+
+</body>
+
+<script type="module" src="./scripts/app.js"></script>
+<script src="./scripts/modules/champion.js"></script>
+<script src="./scripts/modules/spell.js"></script>
+<script src="./scripts/modules/modal.js"></script>
+
+</html>

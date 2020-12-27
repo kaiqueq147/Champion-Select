@@ -1,0 +1,126 @@
+.select {
+    width: 100%;
+    overflow-y: auto;
+    height: 65vh;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(6, 5rem);
+    justify-content: center;
+}
+
+.select::-webkit-scrollbar {
+    color: black;
+    width: .4rem;
+}
+
+.select::-webkit-scrollbar-thumb {
+    background: #f1a025;
+    height: 13rem;
+    border-radius: 15px;
+}
+
+.select::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.select img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 2px solid #3C3C41;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 15px;
+}
+
+.select img:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.champ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: .7rem;
+    font-weight: bold;
+    color: #928D7E;
+}
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class-selection-bar {
+    align-self: start;
+    margin-left: 3rem;
+}
+
+.class-selection-bar img {
+    width: 1.4rem;
+    cursor: pointer;
+}
+
+.ok {
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 5px 5px 50px 50px;
+    border: none;
+    margin: .7rem;
+    background: #3c3c4159;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: .4s;
+    font-size: .9rem;
+}
+
+.ok:hover {
+    cursor: pointer;
+    background: rgba(73, 73, 73, 0.4)
+}
+
+.selected-spells img+img {
+    margin-left: 1rem;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actions img {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 5px;
+}
+
+.actions img:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.spells,
+.spells-2 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    background: #02070cc4;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid #C09F3A;
+    bottom: 8rem;
+    left: 58%;
+    display: none;
+}
+
+.spells.active,
+.spells-2.active {
+    display: grid;
+}

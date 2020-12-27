@@ -1,0 +1,13 @@
+.red-team .champion-container {
+    border: 1px solid rgb(100, 32, 32);
+    box-shadow: 1px 1px 5px rgba(196, 0, 0, 0.329);
+    padding: 1rem !important;
+}
+
+.red-team .status {
+    margin-left: 10rem;
+}
+
+.red-team img {
+    margin-left: 2rem;
+}
