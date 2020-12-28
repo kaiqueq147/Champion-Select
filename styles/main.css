@@ -24,6 +24,7 @@
         height: 80vh;
         display: grid;
         grid-template-columns: 1fr minmax(30rem, 35rem) 1fr;
+        grid-gap: 1rem;
     }
     
     body {
