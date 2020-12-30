@@ -13,10 +13,18 @@ lock.addEventListener('click', () => {
 
 })
 
+if (document.body.clientWidth <= 880) {
+    lock.click()
+    document.querySelector('.modal h1').innerText = 'não tem como fazer\n responsivo kk'
+} else {
+    document.querySelector('.modal h1').innerText = 'Conheça mais sobre mim'
+
+}
 window.onload = (() => {
     window.addEventListener('resize', (event) => {
         console.log('oi')
-        if (document.body.clientWidth <= 882) {
+        if (document.body.clientWidth <= 880) {
+            lock.click()
             document.querySelector('.modal h1').innerText = 'não tem como fazer\n responsivo kk'
         } else {
             document.querySelector('.modal h1').innerText = 'Conheça mais sobre mim'

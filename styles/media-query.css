@@ -79,7 +79,7 @@
     }
 }
 
-@media(max-width: 842px) {
+@media(max-width: 882px) {
     .social-medias {
         display: none;
     }
@@ -100,5 +100,8 @@
         top: 30rem;
         width: 50%;
         margin-top: 13rem;
+    }
+    .action-buttons {
+        display: none;
     }
 }
